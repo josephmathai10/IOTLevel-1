@@ -17,6 +17,8 @@
  - breadboard
  - Jumper wires
 
+![hello world](https://user-images.githubusercontent.com/81356075/144737649-696fe82d-fa96-4454-b737-6b0d77035bfb.png)
+
 ### CODE
   
 ```
@@ -34,10 +36,6 @@ void loop()
 } 
 
 ```
- 
-
-
-
 
 ## EXPERIMENT 2 - TRAFFIC LIGHT
 
@@ -50,7 +48,7 @@ void loop()
  - breadboard
  - Jumper wires
 
-
+![traffic](https://user-images.githubusercontent.com/81356075/144737815-8afb2455-a61a-4e3d-9c52-ac0188837366.png)
 
 ### CODE
 
@@ -85,15 +83,6 @@ digitalWrite(redled, LOW);// turn off red LED
 
 ``` 
 
-
-
-
-
-
-
-
-
-
 ## EXPERIMENT 3 - LED CHASING EFFECT
 
 ### Components required
@@ -105,7 +94,7 @@ digitalWrite(redled, LOW);// turn off red LED
  - breadboard
  - Jumper wires
 
-
+![led chasing](https://user-images.githubusercontent.com/81356075/144737806-fffd5408-7818-4d8f-9207-185049eb088a.png)
   
 ### CODE
 ```
@@ -134,10 +123,6 @@ void loop()
 
 ``` 
 
-
-
-
-
 ## EXPERIMENT 4 - BUTTON CONTROLLED LED
 
 ### Components required
@@ -151,7 +136,7 @@ void loop()
  - breadboard
  - Jumper wires
   
-
+![button controlled](https://user-images.githubusercontent.com/81356075/144737823-1997e1f6-c355-4db4-a2f8-05a0ecc18a08.png)
 
 ### CODE
 
@@ -175,12 +160,6 @@ else
 
 ``` 
 
-
-
-
-
-
-
 ## EXPERIMENT 5 - BUZZER
 
 ### Components required
@@ -190,6 +169,8 @@ else
  - USB Cable
  - breadboard
  - Jumper wires
+
+![buzzer](https://user-images.githubusercontent.com/81356075/144737792-1a685928-7cda-4ad8-bcd5-c1a5d13bcbe6.png)
 
 ### CODE
   
@@ -206,11 +187,6 @@ digitalWrite(buzzer, HIGH); // produce sound
 
 ``` 
 
-
-
-
-
-
 ## EXPERIMENT 6 - RGB LED
 ### Components required
 
@@ -221,8 +197,7 @@ digitalWrite(buzzer, HIGH); // produce sound
  - breadboard
  - Jumper wires
 
-
-
+![rgb led](https://user-images.githubusercontent.com/81356075/144737814-53f2dd40-c605-4c12-962b-655809e3cc1d.png)
 
 ### CODE
   
@@ -258,8 +233,6 @@ for(val=0; val<255; val++)
 
 ``` 
 
-
-
 ## EXPERIMENT 7 - LDR LIGHT SENSOR
 
 ### Components required
@@ -273,9 +246,7 @@ for(val=0; val<255; val++)
  - breadboard
  - Jumper wires
 
-
-
-
+![ldr light](https://user-images.githubusercontent.com/81356075/144737801-0ea2afc6-aaa0-463f-86dc-c793a6015059.png)
 
 ### CODE
   
@@ -298,12 +269,6 @@ delay(10);// wait for 0.01
 
 ```
  
- 
- 
- 
- 
- 
- 
 ## EXPERIMENT 8 - FLAME SENSOR
 
 ### Components required
@@ -316,8 +281,7 @@ delay(10);// wait for 0.01
  - breadboard
  - Jumper wires
 
-
-
+![flame sensor](https://user-images.githubusercontent.com/81356075/144737795-26c16c32-ba0a-4299-b319-e8bda9262224.png)
 
 ### CODE
   
@@ -345,16 +309,7 @@ void loop()
    delay(500); 
 }
 
-```
- 
- 
- 
- 
- 
- 
- 
- 
- 
+``` 
  
 ## EXPERIMENT 9-LM35 TEMPERATURE SENSOR
 
@@ -366,8 +321,7 @@ void loop()
  - breadboard
  - Jumper wires
 
-
-
+![lm35](https://user-images.githubusercontent.com/81356075/144737807-668c354a-7a1f-4469-883f-09e0149ceb2a.png)
 
 ### CODE
   
@@ -391,15 +345,9 @@ delay(500);// wait for 0.5 second
 
 ```
  
-
 ### Result
  
- 
- 
- 
- 
- 
- 
+![result](https://user-images.githubusercontent.com/81356075/144737812-2a97a94e-1de6-4551-a439-967513b62be0.png) 
  
 ## EXPERIMENT 10 - IR REMOTE CONTROL USING TSOP
 
@@ -414,8 +362,7 @@ delay(500);// wait for 0.5 second
  - breadboard
  - Jumper wires
 
-
-
+![ir remote](https://user-images.githubusercontent.com/81356075/144737799-f9b8a8bf-4dc2-4779-98a1-d6a2ed6393a4.png)
 
 ### CODE
   
@@ -550,13 +497,7 @@ irrecv.resume(); // Receive the next value
 }
 
 ```
- 
- 
- 
- 
- 
- 
- 
+  
 ## EXPERIMENT 11 - POTENTIOMETER ANALOG VALUE READING
 
 ### Components required
@@ -567,8 +508,7 @@ irrecv.resume(); // Receive the next value
  - breadboard
  - Jumper wires
 
-
-
+![potentiometer](https://user-images.githubusercontent.com/81356075/144737809-f1e6fcf6-799b-476f-9409-a99173f2cbed.png)
 
 ### CODE
   
@@ -593,10 +533,6 @@ Serial.println(val);// display val’s value
 
 ```
  
- 
- 
- 
- 
 ## EXPERIMENT 12- 7 SEGMENT DISPLAY
 ### Components required
 
@@ -607,8 +543,7 @@ Serial.println(val);// display val’s value
  - breadboard
  - Jumper wires
 
-
-
+![7 segment](https://user-images.githubusercontent.com/81356075/144737816-78a25983-1f94-4d90-8b38-d4048406db72.png)
 
 ### CODE
   
@@ -755,18 +690,11 @@ delay(1000); // wait for 1s
 }}
 
 ```
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+  
  
 ## ASSIGNMENT 1 -AUTOMATIC NIGHT LAMP MODEL USING LDR AND LED
+ 
+![assigment 1](https://user-images.githubusercontent.com/81356075/144737819-8a1f9a91-0c96-42ad-bcfe-c3e9f2e6c5e7.png) 
  
 ### CODE
   
@@ -794,15 +722,12 @@ void loop()
       }
 }
 
-
-
-
 ```
- 
- 
-
- 
+  
 ## ASSIGNMENT 2 - DIGITAL DICE USING 6 LEDS AND 1 PUSH BUTTON
+
+![assigment 2](https://user-images.githubusercontent.com/81356075/144737822-ae5c5aba-3288-410e-95c1-608ddccd727b.png)
+
 ### CODE
   
 ```
